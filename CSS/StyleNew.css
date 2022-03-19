@@ -1,0 +1,36 @@
+body {
+  font-size: 16px; }
+
+.app-main-page {
+  display: flex;
+  min-height: 100vh; }
+  .app-main-page .advertise-wrapper {
+    flex-basis: 70%;
+    background-color: #1281b8; }
+  .app-main-page .login-container {
+    flex-basis: 30%;
+    background-color: #fff;
+    position: relative; }
+    .app-main-page .login-container .product-version {
+      color: #999; }
+    .app-main-page .login-container .form-title {
+      text-align: center; }
+    .app-main-page .login-container .form-actions {
+      padding-left: 0 30px; }
+      .app-main-page .login-container .form-actions input[type="submit"] {
+        height: 36px;
+        width: 100%;
+        text-transform: uppercase; }
+    .app-main-page .login-container .forgot-password {
+      text-align: right; }
+    .app-main-page .login-container .forgot-password-description {
+      text-align: right; }
+    .app-main-page .login-container .copyright {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+
+.login-wrapper .logo {
+  font-weight: 600;
+  color: #0094ff; }

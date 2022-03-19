@@ -1,0 +1,95 @@
+.dashboard-content-wrapper .page-content {
+	margin-bottom: 30px;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+	.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat {
+	  /*flex-basis: 250px;
+	    height: 250px;
+	    margin-top: 15px;
+	    margin-right: 15px;
+        cursor: default;*/
+		position: relative;
+		margin-bottom: 0;
+	}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat.inventory-stock {
+	background-color: #a52a2a;
+	color: #ffd8d8;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat.inventory-stock .number {
+	color: inherit;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat.sales {
+	background-color: #f1951c;
+	color: #ffe7c8;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat.sales .number {
+	color: inherit;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat.purchases {
+	background-color: #397fd2;
+	color: #accdf5;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat.purchases .number {
+	color: inherit;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat.gst {
+	background-color: #6f8803;
+	color: #c0d468;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat.gst .number {
+	color: inherit;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat .details {
+	right: 0;
+	bottom: 30px;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat .details .number {
+	text-align: right;
+	font-size: 25px; 
+	font-weight: 600;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat .details .desc {
+	margin-bottom: 10px;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat .more {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat .more:hover {
+	cursor: pointer;
+}
+
+.dashboard-content-wrapper .page-content .dashboard-summary-container .dashboard-stat .more .m-icon-swapright {
+	margin-left: 5px;
+}
+
+.ico-dash {
+	width: 99px;
+	height: 99px;
+}
+
+.ico-dash img {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+

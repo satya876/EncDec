@@ -1,0 +1,120 @@
+﻿.header{
+    height:126px;
+    position:relative;
+    @media (max-width: 991px){
+        padding:0;
+    }
+    .company-header{
+        padding:10px 15px;
+        display:flex;
+            justify-content:space-between;
+            align-items:center;
+        .company-name{
+            font-size:24px;
+        }
+        .company-description{
+            font-size:16px;
+        }
+            background-color: #a3e1ff;
+    border-left: 20px solid #096d9e;
+       
+    }
+    .header-inner{
+                display:flex;
+        justify-content:space-between;
+        align-items:center;
+         @media (max-width: 991px){
+        padding:0 15px;
+    }
+        .hor-menu{
+        margin-left:0;
+        height:50px;
+        position:relative;
+        ul.nav{
+        //height:50px;
+        display:flex;
+        li{
+        height:50px;
+        
+        a{
+            height:inherit;
+            display:inline-flex;
+            align-items:center;
+            padding: 0 15px;
+            
+            i.fa{
+                margin-right:5px;
+                margin-top:0;
+                &.fa-tachometer{
+                     margin-right:10px;
+                     font-size:30px;
+                }
+            }
+
+        }
+        }
+        }
+       
+    }
+        .dropdown.user
+            {
+          //  a{
+                &:hover{
+                    background-color:inherit!important;
+                }
+                color:#555;
+                .user-icon-container{
+            .user-info{
+                background-color:#eee;
+                padding:5px 10px;
+                display:inline-flex;
+                height:32px;
+                align-items:center;
+                border-radius:30px !important;
+                cursor:pointer;
+                margin-bottom:0 !important;
+                img{
+
+                }
+                .user-name{
+
+                }
+            }
+        }
+        //    }
+        .user-dropdown-menu{
+            margin-top:9px;
+            li{
+                a{
+                    display:inline-flex;
+                    height:36px;
+                    align-items:center;
+                    width:100%;
+                    &:hover{
+                        background-color:#a1e0ff;
+                    }
+                    i.fa{
+                        margin-right:5px;
+                    }
+                }
+            }
+        }
+             
+        }
+         
+    }
+    
+}
+.page-container{
+    margin-top:0px !important;
+}
+
+.brand-watermark{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
+body{
+    background-color:#eef4f7 !important;
+    min-height:100vh;
+}

@@ -1,0 +1,69 @@
+.ver-inline-menu li a {
+	font-size: 16px;
+	color: #010119;
+	display: flex;
+	align-items: center;
+	background: #f5f5f557;
+	border-left: solid 2px transparent;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+	.ver-inline-menu li a i {
+		font-size: 18px;
+		color: #44465d;
+		margin-right: 15px;
+	}
+
+.ver-inline-menu li:hover a {
+	font-size: 16px;
+}
+
+.ver-inline-menu .menu-header, .menu-header {
+	font-size: 18px;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+	.ver-inline-menu .menu-header a.menu-header-link {
+		font-size: 18px;
+		display: flex;
+		align-items: center;
+		text-transform: uppercase;
+		border-radius: 50px !important;
+		height: 50px;
+		padding: 0px;
+		font-weight: 600;
+		border-left: 0px;
+		background-color: #44465d;
+		color: #fff;
+	}
+
+.ver-inline-menu .menu-header a.menu-header-link:hover {
+	text-decoration: none;
+	background-color: #1281b8;
+}
+
+.ver-inline-menu .menu-header a.menu-header-link i.fa {
+	border-radius: 50px;
+	height: 50px;
+	font-size: 25px;
+	width: 50px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	color: #1281b8;
+}
+
+.ver-inline-menu .menu-header a.menu-header-link i.fa:hover {
+	background-color: #86d0f5 !important;
+}
+
+.menu-header {
+	background: #44465d;
+	color: #fff;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+}

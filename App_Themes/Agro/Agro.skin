@@ -1,0 +1,5 @@
+﻿<asp:GridView runat="server"  AutoGenerateColumns="false" 
+    CssClass="table table-striped table-bordered table-advance table-hover table-responsive">                                 
+    <AlternatingRowStyle CssClass="alt" />
+    <PagerStyle CssClass="pgr" />
+</asp:GridView>

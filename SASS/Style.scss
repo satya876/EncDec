@@ -1,0 +1,58 @@
+﻿@import './__partials.scss';
+body {
+    //font-weight:$semi-bold;
+    font-size:16px;
+   }
+
+.app-main-page{
+    display:flex;
+     min-height:100vh;
+
+    .advertise-wrapper{
+        flex-basis:70%;
+        background-color:#1281b8;
+
+    }
+    .login-container{
+        flex-basis:30%;
+        background-color:#fff;
+        position:relative;
+        .product-version{
+            color:#999;
+        }
+
+
+        .form-title {
+            text-align:center;
+}
+        .form-actions{
+            //padding:0;
+            padding-left:0 30px;
+            input[type="submit"]{
+                height:36px;
+                width:100%;
+                text-transform:uppercase;
+            }
+        }
+        .forgot-password{
+            text-align:right;
+        }
+        .forgot-password-description{
+            text-align:right;
+
+        }
+        .copyright{
+            position:absolute;
+            bottom:0;
+            left:0;
+            right:0;
+        }
+    }
+}
+.login-wrapper{
+    .logo{
+        font-weight:600;
+        color:$primary-color;
+    }
+}
+

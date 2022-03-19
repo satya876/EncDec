@@ -1,0 +1,186 @@
+.header {
+	height: auto;
+	position: relative;
+}
+
+.main-logo {
+	margin: 12px 0 0 0;
+}
+
+@media (max-width: 991px) {
+	.header {
+		padding: 0;
+	}
+}
+
+.header .company-header {
+	padding: 10px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*background-color: #fff;
+	border-left: 20px solid #096d9e;*/
+}
+
+.header .company-header .company-name {
+	 font-size: 22px;
+     color: #d8c7c7;
+     margin-left:15px;
+}
+
+.header .company-header .company-description {
+	font-size: 13px;
+    color:#d8c7c7;
+}
+
+.header .header-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #17a2bb;
+}
+
+@media (max-width: 991px) {
+	.header .header-inner {
+		padding: 0 15px;
+	}
+}
+
+.header .header-inner .hor-menu {
+	margin-left: 0;
+	height: 50px;
+	position: relative;
+}
+
+.header .header-inner .hor-menu ul.nav {
+	display: flex;
+}
+
+.header .header-inner .hor-menu ul.nav li {
+	height: 50px;
+}
+
+.header .header-inner .hor-menu ul.nav li a {
+	height: inherit;
+	display: inline-flex;
+	align-items: center;
+	padding: 0 15px;
+}
+
+.header .header-inner .hor-menu ul.nav li a i.fa {
+	margin-right: 5px;
+	margin-top: 0;
+}
+
+/*.header .header-inner .hor-menu ul.nav li a i.fa.fa-tachometer {
+	margin-right: 10px;
+	font-size: 30px;
+}*/
+
+.header .header-inner .dropdown.user {
+	color: #555;
+}
+
+.header .header-inner .dropdown.user:hover {
+	background-color: inherit !important;
+}
+
+.header .header-inner .dropdown.user .user-icon-container .user-info {
+	background-color: #eee;
+	padding: 5px 10px;
+	display: inline-flex;
+	height: 32px;
+	align-items: center;
+	border-radius: 30px !important;
+	cursor: pointer;
+	margin-bottom: 0 !important;
+}
+
+.header .header-inner .dropdown.user .user-dropdown-menu {
+	margin-top: 9px;
+}
+
+.header .header-inner .dropdown.user .user-dropdown-menu li a {
+	display: inline-flex;
+	height: 36px;
+	align-items: center;
+	width: 100%;
+}
+
+.header .header-inner .dropdown.user .user-dropdown-menu li a:hover {
+	background-color: #a1e0ff;
+}
+
+.header .header-inner .dropdown.user .user-dropdown-menu li a i.fa {
+	margin-right: 5px;
+}
+
+.page-container {
+	margin-top: 0px !important;
+}
+
+.brand-watermark {
+	position: fixed;
+	bottom: 30px;
+	right: 0px;
+}
+
+body {
+	background-color: #eaeaea !important;
+	min-height: 100vh;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+/***
+Users
+***/
+.dropdown.user {
+	/*background:#44465d; 
+    border-radius: 5px;*/
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+    cursor:pointer;
+}
+
+.user-info {
+	margin-bottom: 0px !important;
+	padding: 0px;
+}
+
+.user-info .user-pic, .user-info .user-name{
+     float: left;
+}
+
+.user-info .user-pic {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #116fff;
+    border-radius: 50%;
+    background: #39476f; 
+}
+
+.user-info .user-pic img{
+    max-width: 80%;
+    display: block;
+    margin: 2px auto 0;
+}
+
+.user-info .user-name{
+    color:#d8c7c7;
+    margin: 5px 5px 0 0;
+}
+
+.user-info .details {
+  display: inline-block;
+}
+
+.user-info .label {
+  font-weight: 300;
+  font-size: 11px;
+}
+ 
